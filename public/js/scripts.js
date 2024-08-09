@@ -4,4 +4,3 @@ const buttonClose = document.querySelector(".closeBtn");
 buttonClose.addEventListener("click", () => {
     document.getElementById("promoHeader").remove();
 });
-
