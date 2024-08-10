@@ -62,35 +62,20 @@ a {
 }
 /* fim da mensagem de promoção */
 
-.navbar {
-  background-color: #ffffff;
-  width: 100%;
-  height: 663px;
-  top: 134px;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 10%;
-  margin: 20px;
-  padding: auto;
-}
 nav {
   display: flex;
-  justify-content: space-between;
-  margin: 40px;
+  justify-content: center;
+  margin: 30px;
   align-items: baseline;
 }
 
 nav ul {
   display: flex;
-  width: 1240px;
-  height: 48px;
-  gap: 10px;
-  top: 10px;
-  left: 10px;
+  justify-content: center;
   list-style-type: none;
   align-items: baseline;
-  margin: 20px;
-  margin-left: 10%;
+  margin-right: 33px;
+  margin-left: 33px;
 }
 
 nav li a {
@@ -99,6 +84,7 @@ nav li a {
   text-decoration: none;
   margin: auto;
   font-family: "Satoshi";
+  margin: 10px;
 }
 
 nav li a:hover {
@@ -113,10 +99,11 @@ nav li a:hover {
   height: 22px;
   font-weight: 700;
   font-size: 32px;
-  margin: 13px;
-  padding-left: 10%;
+  margin: 1px;
+  padding-left: 1%;
   color: #000000;
   text-decoration: none;
+  margin-right: 40px;
 }
 
 .hamburger {
@@ -137,13 +124,14 @@ nav li a:hover {
   margin-top: 5px;
 }
 .search {
-  width: 590px;
-  height: 46px;
+  width: 490px;
+  height: 44px;
   display: flex;
   align-items: center;
-  padding: 22px;
+  padding: 12px;
   border-radius: 22px;
   background-color: #f6f6f6;
+  margin-right: 20px;
 }
 
 .iconDrop {
@@ -154,19 +142,17 @@ nav li a:hover {
   font-family: "Satoshi";
   color: #333333;
   background-color: #f6f6f6;
-  margin-left: 16px;
+  margin-left: 30px;
   outline: none;
   border: none;
 }
 
 .search a {
-  margin-left: 10%;
+  margin-left: 1%;
 }
 
 .icons {
-  margin-right: 24%;
   display: flex;
-  gap: 1px;
 }
 
 .iconSearch {
@@ -175,7 +161,7 @@ nav li a:hover {
 .icons a {
   display: flex;
   align-items: center;
-  margin-left: 20%;
+  margin-left: 2%;
   margin-right: 0%;
 }
 
@@ -185,7 +171,7 @@ nav li a:hover {
 }
 
 /* inicio da responsividade para o mobile */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   #promoHeader {
     display: flex;
     flex-direction: row;
@@ -201,6 +187,12 @@ nav li a:hover {
   }
   .form-search {
     display: none;
+  }
+  .nav-list {
+    display: none;
+  }
+  .iconSearch {
+    display: block;
   }
 }
 
@@ -227,6 +219,8 @@ nav li a:hover {
     display: block;
     padding-left: 0px;
     font-size: 20;
+    margin-top: 10px;
+    margin-left: 20px;
   }
   .nav-list {
     position: fixed;
@@ -253,12 +247,12 @@ nav li a:hover {
   .icons a {
     display: flex;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 2%;
     margin-right: 0%;
   }
   .icons img {
-    width: 30px;
-    height: 20px;
+    width: 40px;
+    height: 25px;
   }
 }
 
