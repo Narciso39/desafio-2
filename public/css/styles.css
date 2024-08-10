@@ -170,6 +170,63 @@ nav li a:hover {
   height: 24px;
 }
 
+
+/* banner */
+
+.banner {
+  background-image: url(/public/img/banners/banner.png);
+  height: 1440px;
+  height: 663px;
+  top: 134;
+  position: relative;
+}
+
+.titleBanner {
+  font-family: "Integralcf";
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.banner p {
+  font-family: "Satoshi";
+  color: #5C5C5C;
+}
+
+.bannerBtn {
+  width: 210px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: 26px;
+  background-color: #000000;
+  margin-right: 20px;
+  color: #ffffff;
+  border: none;
+}
+
+.bannerBtn a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Satoshi";
+}
+
+.liTitle {
+  font-family: "Satoshi";
+  font-weight: 700;
+  font-size: 40px;
+  margin: 20px;
+}
+
+.ulTitle {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+}
+
+
+
 /* inicio da responsividade para o mobile */
 @media screen and (max-width: 1000px) {
   #promoHeader {
@@ -195,6 +252,31 @@ nav li a:hover {
     display: block;
   }
 }
+
+
+
+
+
+@media screen and (max-width: 390px) {
+  #promoHeader {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    position: absolute;
+    justify-content: flex-start;
+  }
+  #promoHeader p,
+  a {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    flex-direction: row;
+    margin-left: 10%;
+    font-size: 12px;
+  }
+}
+
 
 @media screen and (max-width: 545px) {
   #promoHeader {
@@ -256,24 +338,5 @@ nav li a:hover {
   }
 }
 
-@media screen and (max-width: 390px) {
-  #promoHeader {
-    display: flex;
-    flex-direction: row;
-    font-size: 12px;
-    position: absolute;
-    justify-content: flex-start;
-  }
-  #promoHeader p,
-  a {
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    margin: 0;
-    flex-direction: row;
-    margin-left: 10%;
-    font-size: 12px;
-  }
-}
 
 /* fim da responsividade para o mobile */
