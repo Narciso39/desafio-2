@@ -8,41 +8,57 @@
     
 </head>
 <body>
-    <header class="header">
+
         <div id="promoHeader">
         <p>Sign up and Get 20% off to your first order.<a href="#">  Sign Up Now</a></p>
-        <button type="submit" class="closeBtn"><ion-icon name="close-outline" id="closeIcon"></ion-icon></button>
+        <button type="submit" class="closeBtn"><img src="/public/img/icons/vector.svg" alt="close button"></button>
         </div>
-        <div id="navbar">
-            <nav class="navbar">
-                <ul>
-                    <li>
-                <a href="">SHOP.CO</a>
-                </li>
-                <li>
-                <div class="dropdown">
-                    <button class="dropbtn">Shop
-                        <a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons"></a>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+
+    <div id="navbar">
+        <nav class="navbar">
+            <button class="hamburger"></button>
+            <a href="" id="logo">SHOP.CO</a>
+            <ul class="nav-list">
+            <li class="">
+            </li>
+            <li>
+            <li class="dropdown">
+                <a href="">Shop<img src="/public/img/icons/drop.svg" alt="" class="iconDrop"></a>
+                <div class="dropdown-menu">                    
                 </div>
-                </li>
-                <li>
-                    <a href="#">On Sale</a>
-                </li>
-                <li>
-                    <a href="#">New Arrivals</a>
-                </li>
-                <li>
-                    <a href="#">Brands</a>
-                </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+            </li>
+            </li>
+            <li>
+                <a href="#">On Sale</a>
+            </li>
+            <li>
+                <a href="#">New Arrivals</a>
+            </li>
+            <li>
+                <a href="#">Brands</a>
+            </li>
+            </ul>
+            <form action="#" class="form-search">
+                <div class="search">
+                <a href="">
+                    <img src="/public/img/icons/search.svg"  class="search-icon" alt="">
+                </a>
+                <input type="search" placeholder="Search for products..." class="search-input">
+            </div>
+            </form>
+            <div class="icons">
+                <a href="">
+                    <img src="/public/img/icons/searchMobile.svg" alt="" class="iconSearch">
+                </a>
+                <a href="">
+                    <img src="/public/img/icons/car.svg" alt="" class="iconCar">
+                </a>
+                <a href="">
+                    <img src="/public/img/icons/user.svg" alt="" class="iconUser">
+                </a>    
+            </div>
+        </nav>
+    </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script src="/public/js/scripts.js" defer></script>
 </body>
