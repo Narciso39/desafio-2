@@ -238,6 +238,7 @@ nav li a:hover {
 .ulP {
   display: flex;
   list-style-type: none;
+
 }
 
 .liP {
@@ -253,12 +254,21 @@ nav li a:hover {
   margin-top: 40px;
 }
 
-ul {
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-  margin-right: 15%; 
+
+/* logos */
+.logoBar {
+  background-color: #000000;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 }
+
+.logoMark {
+  margin: 2%;
+}
+
 /* inicio da responsividade para o mobile */
 @media screen and (max-width: 1000px) {
   #promoHeader {
