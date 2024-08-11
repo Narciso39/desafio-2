@@ -175,8 +175,8 @@ nav li a:hover {
 
 .banner {
   background-image: url(/public/img/banners/banner.png);
-  height: 1440px;
-  height: 663px;
+  height: 144px;
+  height: 600px;
   top: 134;
   position: relative;
 }
@@ -192,6 +192,11 @@ nav li a:hover {
   color: #5C5C5C;
 }
 
+.bannerContent {
+  margin-left: 24px;
+  padding: 60px;
+}
+
 .bannerBtn {
   width: 210px;
   height: 52px;
@@ -203,6 +208,7 @@ nav li a:hover {
   margin-right: 20px;
   color: #ffffff;
   border: none;
+  margin-top: 30px;
 }
 
 .bannerBtn a {
@@ -212,21 +218,47 @@ nav li a:hover {
   font-family: "Satoshi";
 }
 
+.subTitle {
+  margin: 0px;
+}
+
 .liTitle {
   font-family: "Satoshi";
   font-weight: 700;
   font-size: 40px;
-  margin: 20px;
+  margin-top: 40px;
 }
 
 .ulTitle {
   display: flex;
   list-style-type: none;
-  flex-direction: row;
+  justify-content:flex-start;
 }
 
+.ulP {
+  display: flex;
+  list-style-type: none;
+}
 
+.liP {
+  font-family: "Satoshi";
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 10px;
+}
 
+.pipes {
+  display: flex;
+  margin: 10px;
+  margin-top: 40px;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%; 
+}
 /* inicio da responsividade para o mobile */
 @media screen and (max-width: 1000px) {
   #promoHeader {
