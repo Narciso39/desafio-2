@@ -208,6 +208,7 @@ nav li a:hover {
   color: #ffffff;
   border: none;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .bannerBtn a {
@@ -293,17 +294,17 @@ nav li a:hover {
 }
 
 .productImg{
-  overflow: hidden; /* Esconde partes da imagem que saem do contêiner */
-  width: 300px; /* Largura do contêiner */
-  height: 200px; /* Altura do contêiner */
+  overflow: hidden;
+  width: 200px; 
+  height: 100px; 
 }
 .productImg {
-  width: 100%; /* Largura total do contêiner */
-  height: auto; /* Mantém a proporção */
-  transition: transform 0.3s ease; /* Transição suave para o efeito */
+  width: 100%; 
+  height: auto; 
+  transition: transform 0.3s ease; 
 }
 .productImg:hover {
-  transform: scale(1.1); /* Aumenta a imagem para 120% do tamanho original */
+  transform: scale(1.1);
 }
 .stars {
   display: flex;
@@ -314,6 +315,43 @@ nav li a:hover {
   font-weight: 700;
   font-size: 25px;
   display: flex;
+}
+
+.viewAll {
+  display: grid;
+  place-items: center;
+  font-family: "Integralcf";
+  font-size: 28px;
+  height: 50px;
+}
+
+.viewBtn {
+  width: 260px;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-radius: 46px;
+  background-color: #ffffff;
+  margin-right: 20px;
+  color: #ffffff;
+  border-color: #F0EEED;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.viewBtn a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Satoshi";
+  color: #000000;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
 }
 /* inicio da responsividade para o mobile */
 @media screen and (max-width: 1000px) {
