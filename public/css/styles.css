@@ -244,7 +244,7 @@ nav li a:hover {
   font-family: "Satoshi";
   font-weight: 400;
   font-size: 15px;
-  margin-left: 10px;
+  color: #5c5c5c;
 }
 
 .pipes {
@@ -253,6 +253,16 @@ nav li a:hover {
   margin-top: 40px;
 }
 
+.starLow {
+  position: absolute;      
+  left: 700px; 
+  margin-top:-250px;
+}
+.starHigh {
+  position: absolute; 
+  top: 10px;          
+  right: 20px;
+}
 /* logos */
 .logoBar {
   background-color: #000000;
@@ -353,22 +363,23 @@ nav li a:hover {
   flex-direction: column;
   margin-top: 5%;
 }
-
 .wrapper {
-  position: relative
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
+  margin: 0;    
 }
 
+
 .centered {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 30%); /* Ajusta para centralizar */
   background-color: #f0f0f0;
   padding: 50px;
   border-radius: 70px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  height: 80%;
-  width: 800px;
+  max-width: 800px;       
+  width: 100%;            
+  box-sizing: border-box; 
 }
 
 .line1 {
@@ -416,6 +427,12 @@ nav li a:hover {
   margin: 5px; 
 }
 
+
+.carrosel {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
 /* inicio da responsividade para o mobile */
 @media screen and (max-width: 1000px) {
   #promoHeader {
