@@ -427,11 +427,57 @@ nav li a:hover {
   margin: 5px; 
 }
 
+/* inicio do carrossel */
 
-.carrosel {
-  width: 100%;
-  height: 100%;
-  background-color: #000000;
+.carousel-container {
+  width: 20%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  border: 2px solid #ddd; 
+}
+
+/* Contêiner dos itens do carrossel */
+.carousel-wrapper {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+/* Itens do carrossel */
+.carousel-item {
+  min-width: 100%;
+  /* box-sizing: border-box; */
+}
+
+/* Centralizando o conteúdo dentro dos itens */
+.starComent {
+  width: 100px;
+  display: block;
+}
+
+.checkedComent {
+  width: 10px;
+}
+
+/* Botões de navegação */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
 }
 /* inicio da responsividade para o mobile */
 @media screen and (max-width: 1000px) {
@@ -540,3 +586,5 @@ nav li a:hover {
 }
 
 /* fim da responsividade para o mobile */
+
+
