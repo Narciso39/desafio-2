@@ -355,41 +355,67 @@ nav li a:hover {
 }
 
 .wrapper {
-  position: relative;
-  height: 100vh; /* Usa toda a altura da viewport */
+  position: relative
 }
 
 .centered {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Ajusta para centralizar */
+  transform: translate(-50%, 30%); /* Ajusta para centralizar */
   background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 8px;
+  padding: 50px;
+  border-radius: 70px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
+  height: 80%;
+  width: 800px;
 }
 
 .line1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
   display: flex;
-}
+  flex-direction: row;
+  margin: 10px;
+  margin-top: 30px;
+} 
+.line2 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+} 
 
 .img1 {
   display: flex;
+  width: 250px;
+  height: 165px;
+  margin-left: 10px;
 }
 .img2 {
   display: flex;
+  width: 250px;
+  height: 165px;
 }
 .img3 {
   display: flex;
+  width: 390px;
+  height: 160px;
+  margin: 10px;
 }
 .img4 {
   display: flex;
+  width: 200px;
+  height: 165px;
+  margin: 10px;
 }
+.titleBanner2 {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-family: "Integralcf";
+  font-weight: 700;
+  font-size: 20px;
+  margin: 5px; 
+}
+
 /* inicio da responsividade para o mobile */
 @media screen and (max-width: 1000px) {
   #promoHeader {
