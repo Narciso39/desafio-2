@@ -353,6 +353,43 @@ nav li a:hover {
   flex-direction: column;
   margin-top: 5%;
 }
+
+.wrapper {
+  position: relative;
+  height: 100vh; /* Usa toda a altura da viewport */
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Ajusta para centralizar */
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.line1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+}
+
+.img1 {
+  display: flex;
+}
+.img2 {
+  display: flex;
+}
+.img3 {
+  display: flex;
+}
+.img4 {
+  display: flex;
+}
 /* inicio da responsividade para o mobile */
 @media screen and (max-width: 1000px) {
   #promoHeader {
