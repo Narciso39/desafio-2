@@ -430,11 +430,12 @@ nav li a:hover {
 /* inicio do carrossel */
 
 .carousel-container {
-  width: 20%;
+  width: 80%;
+  height: 249px;
   margin: auto;
   overflow: hidden;
   position: relative;
-  border: 2px solid #ddd; 
+
 }
 
 /* Contêiner dos itens do carrossel */
@@ -444,11 +445,37 @@ nav li a:hover {
 }
 
 /* Itens do carrossel */
-.carousel-item {
+.carousel-page {
   min-width: 100%;
   /* box-sizing: border-box; */
+  display: flex;
+  gap: 15px;
 }
 
+.carousel-item {
+  display: relative;
+  padding: 40px;
+  border: 2px solid #ddd; 
+  border-radius: 30px;
+  border-color: #F0EEED;
+  width: 40%; 
+  height: 200px; 
+  transition: transform 0.3s ease; 
+}
+
+.carousel-item h3 {
+  font-family: "Satoshi";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.carouselP {
+  font-family: "Satoshi";
+  font-weight: 300;
+  color: #5c5c5c;
+  font-size: 12px;
+}
+.carousel
 /* Centralizando o conteúdo dentro dos itens */
 .starComent {
   width: 100px;
@@ -461,24 +488,25 @@ nav li a:hover {
 
 /* Botões de navegação */
 .prev, .next {
-  position: absolute;
-  top: 50%;
-  width: 30px;
-  height: 30px;
-  background-color: rgba(0,0,0,0.5);
-  color: white;
+  background-color: #ffffff;
   border: none;
   cursor: pointer;
-  transform: translateY(-50%);
 }
 
-.prev {
-  left: 10px;
+.direction {
+  position: absolute;
+  left: 1200px;
 }
 
-.next {
-  right: 10px;
+.carouselName {
+  margin: 89px;
+  font-family: "Integralcf";
+  font-size: 20px;
+  font-weight: 700;
 }
+
+
+
 /* inicio da responsividade para o mobile */
 @media screen and (max-width: 1000px) {
   #promoHeader {
