@@ -486,6 +486,9 @@ nav li a:hover {
   width: 10px;
 }
 
+
+
+
 /* Botões de navegação */
 .prev, .next {
   background-color: #ffffff;
@@ -506,7 +509,39 @@ nav li a:hover {
 }
 
 
+/* formulario do footer */
 
+.emailForm {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.form {
+  display: flex;
+  position: relative;
+  padding: 60px;
+  height: 150px;
+  border-radius: 15px;
+  width: 85%;
+  background-color: #000000;
+}
+
+.formTitle {
+  font-family: "Integralcf";
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  position: absolute;
+  width: 39%;
+  top: 10px;
+  margin-top: 20px;
+}
+
+.inputForm {
+  position: absolute;
+  margin: 40px;
+  left: 600px;
+}
 /* inicio da responsividade para o mobile */
 @media screen and (max-width: 1000px) {
   #promoHeader {
