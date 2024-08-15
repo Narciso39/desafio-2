@@ -568,6 +568,46 @@ nav li a:hover {
   border: none;
   cursor: pointer;
 }
+
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F0F0F0;
+}
+
+.footerLogo {
+  font-family: "Integralcf";
+  font-weight: 700;
+  font-size: 33.45px;
+}
+.listTitle {
+  font-family: "Satoshi";
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  word-spacing: 19px
+}
+.footerP {
+  font-family: "Satoshi";
+  font-weight: 400;
+  color: #5c5c5c;
+}
+.footerContent {
+  display: flex;
+  margin-top: 10px;
+  font-family: "Satoshi";
+  font-weight: 400;
+  list-style: none;
+  color: #5c5c5c;
+  font-size: 15px;
+}
+
+.footerBtn {
+  border: none;
+}
+
 /* inicio da responsividade para o mobile */
 @media screen and (max-width: 1000px) {
   #promoHeader {
