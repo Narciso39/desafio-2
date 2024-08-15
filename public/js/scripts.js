@@ -3,9 +3,7 @@ const hamburger = document.querySelector(".hamburger");
 const nav = document.querySelector(".nav");
 const img = document.querySelectorAll(".productImg");
 const imgN = 9;
-const copyright = document.querySelector(".infoFooterP");
-const year =  new Date();
-const currentYear = year.getFullYear();
+
 // função para remover a mensagem de promoção
 buttonClose.addEventListener("click", () => {
   document.getElementById("promoHeader").remove();
@@ -43,6 +41,11 @@ prevButton.addEventListener('click', () => {
 
 showSlide(index); 
 
+// função para calcular o ano
 
 
-copyright.innerHTML = `Shop.co © 2000-${currentYear}, All Rights Reserved`
+const copyright = document.querySelector(".infoFooterP");
+const year =  new Date();
+const currentYear = year.getFullYear();
+
+copyright.innerHTML = `Shop.co © 2000-${currentYear}, All Rights Reserved`;

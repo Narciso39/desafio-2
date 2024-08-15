@@ -320,13 +320,32 @@ nav li a:hover {
   display: flex;
 }
 
+.itemPromo {
+  display: flex;
+  gap: 10px;
+}
+
 .price {
   font-family: "Satoshi";
   font-weight: 700;
   font-size: 25px;
   display: flex;
 }
+.pricePromo {
+  text-decoration: line-through;
+  font-family: "Satoshi";
+  font-weight: 700;
+  font-size: 25px;
+  color: #5c5c5c;
+}
 
+.desc {
+  width: 50px;
+  background-color: #FFEBEB;
+  padding: 5px;
+  border-radius: 30px;
+  color: #FF3333;
+}
 .viewAll {
   display: grid;
   place-items: center;
@@ -567,6 +586,9 @@ nav li a:hover {
   border-radius: 22px;
   border: none;
   cursor: pointer;
+  font-family: "Satoshi";
+  font-weight: 500;
+ 
 }
 
 
