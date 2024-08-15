@@ -575,24 +575,34 @@ nav li a:hover {
   justify-content: space-between;
   align-items: center;
   background-color: #F0F0F0;
+  gap: 10px;
 }
+
 
 .footerLogo {
   font-family: "Integralcf";
   font-weight: 700;
   font-size: 33.45px;
+  margin-left: 85px;
 }
 .listTitle {
   font-family: "Satoshi";
   font-weight: 500;
   color: #000000;
   font-size: 16px;
-  word-spacing: 19px
+  margin-top: auto;
 }
 .footerP {
   font-family: "Satoshi";
   font-weight: 400;
   color: #5c5c5c;
+  width: 45%;
+  margin-left: 85px;
+  margin-top: 10px;
+}
+.footerBtns {
+  margin-left: 85px;
+  margin-top: 10px;
 }
 .footerContent {
   display: flex;
@@ -608,7 +618,24 @@ nav li a:hover {
   border: none;
 }
 
-/* inicio da responsividade para o mobile */
+.companyList,
+.helpList, 
+.faqList,
+.resourcesList {
+  margin-right: 70px;
+  margin-top: 20px;
+}
+
+ 
+.faqList,
+.resourcesList  { 
+  margin-bottom: 20px;
+}
+
+.companyList {
+  margin-bottom: 40px;
+}
+ /* inicio da responsividade para o mobile */
 @media screen and (max-width: 1000px) {
   #promoHeader {
     display: flex;
