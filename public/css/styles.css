@@ -430,12 +430,15 @@ nav li a:hover {
 /* inicio do carrossel */
 
 .carousel-container {
-  width: 80%;
-  height: 249px;
+  width: 90%;
+  height: 100%;
   margin: auto;
+  margin-top: 12px;
   overflow: hidden;
   position: relative;
-
+  margin-bottom: 34px;
+  display: flex;
+  gap: 10px;
 }
 
 /* Contêiner dos itens do carrossel */
@@ -449,7 +452,7 @@ nav li a:hover {
   min-width: 100%;
   /* box-sizing: border-box; */
   display: flex;
-  gap: 15px;
+  gap: 20px;
 }
 
 .carousel-item {
@@ -502,7 +505,7 @@ nav li a:hover {
 }
 
 .carouselName {
-  margin: 89px;
+  margin: 100px;
   font-family: "Integralcf";
   font-size: 20px;
   font-weight: 700;
@@ -510,38 +513,87 @@ nav li a:hover {
 
 
 /* formulario do footer */
-
 .emailForm {
   display: flex;
   align-items: center;
+  justify-content: center; 
   width: 100%;
+  height: 200px; 
+  background: linear-gradient(to bottom, #ffffff 50%, #F0F0F0 50%);
+  margin: 0 auto;
+  padding: 20px; 
+  box-sizing: border-box; 
 }
+
 .form {
   display: flex;
-  position: relative;
-  padding: 60px;
-  height: 150px;
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center;
+  padding: 90px; 
   border-radius: 15px;
-  width: 85%;
+  width: 90%;
+  height: 20%;
   background-color: #000000;
+  color: #ffffff; 
 }
 
 .formTitle {
   font-family: "Integralcf";
   font-weight: 700;
-  color: #ffffff;
   font-size: 30px;
-  position: absolute;
-  width: 39%;
-  top: 10px;
-  margin-top: 20px;
+  width: 40%;
 }
 
 .inputForm {
-  position: absolute;
-  margin: 40px;
-  left: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 100px;
 }
+
+.inputEmail {
+  width: 500%; 
+  max-width: 400px;
+  height: 20px;
+  padding: 22px;
+  border-radius: 22px;
+  border: none;
+}
+
+.inputBtn {
+  width: 190%; 
+  padding: 12px;
+  border-radius: 22px;
+  border: none;
+  cursor: pointer;
+}
+/* inicio da responsividade para o mobile */
+@media screen and (max-width: 1000px) {
+  #promoHeader {
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    position: absolute;
+    justify-content: flex-start;
+  }
+  #promoHeader button {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .form-search {
+    display: none;
+  }
+  .nav-list {
+    display: none;
+  }
+  .iconSearch {
+    display: block;
+  }
+} 
+  
 /* inicio da responsividade para o mobile */
 @media screen and (max-width: 1000px) {
   #promoHeader {
