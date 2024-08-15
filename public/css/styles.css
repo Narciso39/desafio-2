@@ -635,6 +635,33 @@ nav li a:hover {
 .companyList {
   margin-bottom: 40px;
 }
+
+.bottomFooter {
+  background-color:#f0f0f0;
+}
+.footerline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.infoFooterP {
+  font-family: "Satoshi";
+  font-weight: 400;
+  color: #5c5c5c;
+  font-size: 14px;
+  margin-right: 400px;
+}
+.cardImg {
+  display: flex;
+  margin-left: 250px;
+  margin-top: 15px;
+}
  /* inicio da responsividade para o mobile */
 @media screen and (max-width: 1000px) {
   #promoHeader {
