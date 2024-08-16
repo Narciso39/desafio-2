@@ -889,15 +889,16 @@ nav li a:hover {
 
   .row2 {
     display: flex;
-    /* justify-content: center; 
-    align-items: center;    */
+    justify-content: center; 
+    align-items: center;   
+    margin-top: 40px;
   }
 
   #logo1 {
     position: absolute;
     right: 200px;
     width: 220px;
-    bottom: 40px;
+    bottom: 90px;
   }
 
   #logo2 {
@@ -912,14 +913,75 @@ nav li a:hover {
     top: -10px;
     width: 200px;
   }
-
+  
   #logo4 {
+    width: 59%
   }
   #logo5 {
-    position: absolute;
-    left: 10px;
-    top: 40px;
-    left: 200px;
+    width: 59%
+  }
+
+  #itemNone1 ,#itemNone2, #itemNone3, #itemNone4  {
+    display: none;
+  }
+
+  .productContainer {
+    max-width: 390px;
+    width: 100%;
+    margin: 0px;
+  }
+  .product {
+    width: 45%;
+  }
+
+  .productName {
+    font-size: 12px;
+  }
+  
+  .price {
+    font-family: "Satoshi";
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+  }
+  .pricePromo {
+    text-decoration: line-through;
+    font-family: "Satoshi";
+    font-weight: 700;
+    font-size: 20px;
+    color: #5c5c5c;
+  }
+  
+  .desc {
+    width: 50px;
+    background-color: #FFEBEB;
+    padding: 5px;
+    border-radius: 30px;
+    color: #FF3333;
+  }
+
+  .viewAll {
+    display: grid;
+    place-items: center;
+    font-family: "Integralcf";
+    font-size: 22px;
+    height: 50px;
+  }
+  .viewAll {
+    margin-top: -160px;
+  }
+
+  .viewBtn {
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  
+  .section {
+    height: 10px;
   }
 }
 
