@@ -179,13 +179,18 @@ nav li a:hover {
   top: 134;
   position: relative;
 }
-
+.imgMobile {
+  display: none;
+}
 .titleBanner {
   font-family: "Integralcf";
   font-weight: 700;
   font-size: 64px;
 }
 
+.bannerP {
+  width: 35%;
+}
 .banner p {
   font-family: "Satoshi";
   color: #5c5c5c;
@@ -684,31 +689,8 @@ nav li a:hover {
   margin-left: 250px;
   margin-top: 15px;
 }
- /* inicio da responsividade para o mobile */
-@media screen and (max-width: 1000px) {
-  #promoHeader {
-    display: flex;
-    flex-direction: row;
-    font-size: medium;
-    position: absolute;
-    justify-content: flex-start;
-  }
-  #promoHeader button {
-    display: none;
-  }
-  .hamburger {
-    display: block;
-  }
-  .form-search {
-    display: none;
-  }
-  .nav-list {
-    display: none;
-  }
-  .iconSearch {
-    display: block;
-  }
-} 
+ 
+/* fim do desktop */
   
 /* inicio da responsividade para o mobile */
 @media screen and (max-width: 1000px) {
@@ -737,6 +719,7 @@ nav li a:hover {
 }
 
 @media screen and (max-width: 390px) {
+  
   #promoHeader {
     display: flex;
     flex-direction: row;
@@ -754,8 +737,90 @@ nav li a:hover {
     margin-left: 10%;
     font-size: 12px;
   }
+  
+  .banner {
+    display: flex;
+    background-color: #5c5c5c;
+    height: 500px;
+    position: relative;
+  }
+  .titleBanner {
+    font-size: 35px;
+    margin: 8px;
+  }
+
+  
+.bannerContent {
+  margin-left: 1px;
+  padding: 2px;
+}
+  .bannerBtn {
+    margin: 40px;
+    width: 80%;;
+  }
+  .bannerBtn a {
+    padding: 100px;
+  }
+  .starLow {
+    position: absolute;
+    left: -380px;
+    padding: 400px;
+  }
+  .starHigh {
+    position: absolute;
+    top: 470px;
+    left: 340px;
+  }
+
+  .imgMobile {
+    display: block;
+    width: 100%;
+    color: #5c5c5c;
+  }
+  .imgMobile img {
+    width: 100%;
+  }
+
+  .ulTitle {
+    display: flex;
+    align-items: center;
+  }
+
+  .topBanner {
+    position: relative;
+    margin: 10px;
+    top: -60px;
+    left: 60px;
+  }
+  
+  .pipes {
+    position: relative;
+    margin: 10px;
+    top: -40px;
+    left: 60px;
+  }
+  .liTitle {
+    width: 30px;
+    font-size: 20px;
+  }
+  #secondPipe {
+    display: none;
+  }
+
+  .bottomBanner {
+    position: relative;
+    bottom: -20px;
+    left: -160px;
+  }
+  .bannerP {
+    width: 80%;
+    margin-left: 20px;
+  }
 }
 
+
+
+/* 
 @media screen and (max-width: 545px) {
   #promoHeader {
     display: flex;
@@ -814,7 +879,7 @@ nav li a:hover {
     width: 40px;
     height: 25px;
   }
-}
+} */
 
 /* fim da responsividade para o mobile */
 
