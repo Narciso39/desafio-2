@@ -175,7 +175,6 @@ nav li a:hover {
 
 .banner {
   background-image: url(/public/img/banners/banner.png);
-  background-repeat: no-repeat;
   height: 144px;
   height: 600px;
   top: 134;
@@ -271,14 +270,23 @@ nav li a:hover {
   right: 20px;
 }
 /* logos */
-.logoBar {
+
+#desktopMobile {
+  display: none;
+}
+#desktopLogo {
   background-color: #000000;
   width: 100%;
   /* height: 100px; */
 
-  /* display: flex;
+  display: flex;
   align-items: baseline;
-  justify-content: center; */
+  justify-content: center; 
+}
+
+.logoBar {
+  background-color: #000000;
+  width: 100%;
 }
 
 .logoMark {
@@ -398,6 +406,9 @@ nav li a:hover {
   margin: 0;    
 }
 
+.wrapper2 {
+  display: none;
+}
 
 .centered {
   background-color: #f0f0f0;
@@ -872,7 +883,12 @@ nav li a:hover {
   #desktopLogo {
     display: none;
   }
-   
+  #desktopMobile {
+    display: block;
+  }
+  .lineImg {
+    display: none;
+  }
   .logoBar #row1{
     max-width: 390px;
     width: 100%;
@@ -977,11 +993,54 @@ nav li a:hover {
     align-items: center;
     justify-content: center;
   }
-  
-
-  
   .section {
     height: 10px;
+  }
+
+  .category {
+    display: none;
+  }
+
+  .categoryContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .wrapper2 {
+    display: block;
+    margin-top: 40px;
+    width: 90%;
+    margin-left: 30px;
+  }
+  .wrapper {
+    display: none;
+  }
+
+  .titleBanner2 {
+    margin-top: -20px;
+    font-size: 20px;
+  }
+  .img1 {
+    margin-left: -40px;
+    margin-top: 10px;
+  }
+  .img2 {
+    margin-left: -40px;
+    margin-top: 18px;
+  }
+  .img3 {
+    margin-left: -40px;
+    margin-top: 20px;
+  }
+  .img4 {
+    margin-left: -40px;
+    margin-top: 10px;
+  }
+
+  #item3, #item3 {
+    display: none;
   }
 }
 
