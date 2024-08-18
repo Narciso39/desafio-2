@@ -938,22 +938,22 @@ nav li a:hover {
 
   #logo1 {
     position: absolute;
-    right: 200px;
-    width: 220px;
+    right: 220px;
+    width: 240px;
     bottom: 90px;
   }
 
   #logo2 {
     position: absolute;
-    left: 120px;
-    top: -14px;
-    width: 164px;
+    left: 135px;
+    top: -18px;
+    width: 184px;
   }
   #logo3 {
     position: absolute;
-    left: 200px;
+    left: 230px;
     top: -10px;
-    width: 200px;
+    width: 220px;
   }
   
   #logo4 {
