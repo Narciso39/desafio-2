@@ -551,7 +551,7 @@ nav li a:hover {
 
 
 /* formulario do footer */
-.emailForm {
+/* .emailForm {
   display: flex;
   align-items: center;
   justify-content: center; 
@@ -609,7 +609,7 @@ nav li a:hover {
   font-weight: 500;
  
 }
-
+ */
 
 .footerContainer {
   display: flex;
@@ -733,6 +733,10 @@ nav li a:hover {
 }
 
 @media screen and (max-width: 390px) {
+
+  * {
+    max-width: 390px;
+  }
   
   #promoHeader {
     display: flex;
@@ -1064,6 +1068,71 @@ nav li a:hover {
   .direction {
     position: absolute;
     left: 300px;
+  }
+
+  .emailForm {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    height: 240px;
+    color: #ddd;
+    background: linear-gradient(to bottom, #ffffff 50%, #F0F0F0 50%);
+  }
+
+  .form {
+    margin-left: 50px;
+    width: 70%;
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 20px
+ 
+  }
+
+  .formTitle {
+    width: 100%;
+    font-size: 20px;
+    padding: 30px;
+    font-family: "Integralcf";
+    font-weight: 700;
+  }
+
+  .inputForm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inputEmail {
+    width: 100%;
+    padding: 10px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+  }
+  .inputBtn {
+  width: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: "Satoshi";
+  font-weight: 500;
+  font-size: 16px;
+  }
+
+  .inputBtn a {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    font-size: 15px;
+    color: #000;
+    flex-direction: row;
+    text-decoration: none;
   }
 }
 
