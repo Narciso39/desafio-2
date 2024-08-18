@@ -551,7 +551,11 @@ nav li a:hover {
 
 
 /* formulario do footer */
-/* .emailForm {
+ 
+.emailForm2 {
+  display: none;
+}
+.emailForm {
   display: flex;
   align-items: center;
   justify-content: center; 
@@ -609,7 +613,19 @@ nav li a:hover {
   font-weight: 500;
  
 }
- */
+
+.inputBtn a {
+  display: flex;
+  color: #000;
+  text-decoration: none;
+  font-family: "Satoshi";
+  font-weight: 500;
+  align-items: center;
+}
+
+ .formMobile {
+  display: none;
+ }
 
 .footerContainer {
   display: flex;
@@ -659,6 +675,13 @@ nav li a:hover {
   border: none;
 }
 
+.footerRow1 {
+  display: flex;
+}
+
+.footerRow2 {
+  display: flex;
+}
 .companyList,
 .helpList, 
 .faqList,
@@ -734,10 +757,9 @@ nav li a:hover {
 
 @media screen and (max-width: 390px) {
 
-  * {
-    max-width: 390px;
+  .footerline {
+    display: none;
   }
-  
   #promoHeader {
     display: flex;
     flex-direction: row;
@@ -1071,6 +1093,11 @@ nav li a:hover {
   }
 
   .emailForm {
+    display: none;
+  }
+
+
+  .emailForm2 {
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -1081,6 +1108,10 @@ nav li a:hover {
   }
 
   .form {
+    display: block;
+  }
+
+  .formMobile {
     margin-left: 50px;
     width: 70%;
     display: flex;
@@ -1094,7 +1125,7 @@ nav li a:hover {
  
   }
 
-  .formTitle {
+  .formTitle2 {
     width: 100%;
     font-size: 20px;
     padding: 30px;
@@ -1102,19 +1133,19 @@ nav li a:hover {
     font-weight: 700;
   }
 
-  .inputForm {
+  .inputForm2 {
     display: flex;
     flex-direction: column;
   }
 
-  .inputEmail {
+  .inputEmail2 {
     width: 100%;
     padding: 10px;
     height: 25px;
     border-radius: 20px;
     border: none;
   }
-  .inputBtn {
+  .inputBtn2 {
   width: auto;
   margin-top: 10px;
   border-radius: 20px;
@@ -1125,7 +1156,7 @@ nav li a:hover {
   font-size: 16px;
   }
 
-  .inputBtn a {
+  .inputBtn2 a {
     display: flex;
     width: 200px;
     align-items: center;
@@ -1134,6 +1165,55 @@ nav li a:hover {
     flex-direction: row;
     text-decoration: none;
   }
+
+  .formMobile {
+    display: block;
+  }
+
+  .footerContainer {
+    flex-direction: column;
+  }
+
+  .footerP {
+    width: 60%;
+  }
+  .footerRow1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .footerRow1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+  }
+
+  .footerRow2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+  }
+
+  .bottomFooter {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .cardImg {
+    position: absolute;
+    right: 350px;
+    top: 100px;
+    width: 20px;
+  }
+
+  .infoFooterP {
+    font-size: 10px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+  }
+
 }
 
 
