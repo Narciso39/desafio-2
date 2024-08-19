@@ -7,12 +7,12 @@
 @font-face {
   font-family: "Satoshi";
   src: local("Satoshi"),
-    url("/public/fonts/Satoshi-Regular.ttf") format("truetype");
+    url("../fonts/Satoshi-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Integralcf";
   src: local("Integralcf"),
-    url("/public/fonts/Integralcf-regular.otf") format("opentype");
+    url("../fonts/Integralcf-regular.otf") format("opentype");
 }
 
 /* começo da mensagem com a promoção */
@@ -174,7 +174,7 @@ nav li a:hover {
 /* banner */
 
 .banner {
-  background-image: url(/public/img/banners/banner.png);
+  background-image: url(../img/banners/banner.png);
   height: 144px;
   height: 600px;
   top: 134;
