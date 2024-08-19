@@ -840,7 +840,7 @@ nav li a:hover {
     width: 80%;;
   }
   .bannerBtn a {
-    padding: 80px;
+    padding: 100px;
   }
   .starLow {
     position: absolute;
@@ -850,7 +850,7 @@ nav li a:hover {
   .starHigh {
     position: absolute;
     top: 490px;
-    left: 280px;
+    left: 320px;
   }
 
   .imgMobile {
@@ -871,7 +871,7 @@ nav li a:hover {
 
   .topBanner {
     position: relative;
-    margin: 10px;
+    margin: 1px;
     top: -60px;
     left: 60px;
   }
@@ -903,7 +903,6 @@ nav li a:hover {
   .logoBar {
     position: relative;
     bottom: 10px;
-    height: auto;
     padding: 20px;
   }
   #desktopLogo {
@@ -916,7 +915,7 @@ nav li a:hover {
     display: none;
   }
   .logoBar #row1{
-    max-width: 390px;
+    /* max-width: 390px; */
     width: 100%;
   }
   .logoMark {
@@ -938,7 +937,7 @@ nav li a:hover {
 
   #logo1 {
     position: absolute;
-    right: 220px;
+    right: 230px;
     width: 240px;
     bottom: 90px;
   }
@@ -952,7 +951,7 @@ nav li a:hover {
   #logo3 {
     position: absolute;
     left: 230px;
-    top: -10px;
+    top: -13px;
     width: 220px;
   }
   
@@ -970,7 +969,7 @@ nav li a:hover {
   .productContainer {
     max-width: 390px;
     width: 100%;
-    margin: 0px;
+    margin-left: 30px;
   }
   .product {
     width: 45%;
@@ -1037,8 +1036,8 @@ nav li a:hover {
   .wrapper2 {
     display: block;
     margin-top: 40px;
-    width: 90%;
-    margin-left: 30px;
+    width: 75%;
+    margin-left: 50px;
   }
   .wrapper {
     display: none;
@@ -1141,13 +1140,14 @@ nav li a:hover {
   .inputEmail2 {
     width: 100%;
     padding: 10px;
-    height: 25px;
+    height: 30px;
     border-radius: 20px;
     border: none;
   }
   .inputBtn2 {
+  height: 30px;
   width: auto;
-  margin-top: 10px;
+  margin-top: 5px;
   border-radius: 20px;
   border: none;
   cursor: pointer;
@@ -1160,9 +1160,10 @@ nav li a:hover {
     display: flex;
     width: 200px;
     align-items: center;
+    justify-content: center;
+    padding: 5px;
     font-size: 15px;
     color: #000;
-    flex-direction: row;
     text-decoration: none;
   }
 
